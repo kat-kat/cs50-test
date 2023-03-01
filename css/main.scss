@@ -1,0 +1,13 @@
+%thing {
+  color: #fff
+}
+
+p {
+  @extend %thing;
+  font-size: 12px;
+}
+
+h1 {
+  @extend %thing;
+  font-size: 18px;
+}
